@@ -1,13 +1,6 @@
 {
   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
-  "metadata": {
-    "_generator": {
-      "name": "bicep",
-      "version": "0.4.1.14562",
-      "templateHash": "10516732518043384973"
-    }
-  },
   "parameters": {
     "skuName": {
       "type": "string",
@@ -33,8 +26,8 @@
   "functions": [],
   "variables": {
     "hostingPlanName": "planFiap.Aula04.Web",
-    "websiteName": "[format('website{0}', uniqueString(resourceGroup().id))]",
-    "sqlserverName": "[format('sqlServer{0}', uniqueString(resourceGroup().id))]",
+    "websiteName": "app-pf0841",
+    "sqlserverName": "sqlserver-pf0841",
     "databaseName": "LmsDB"
   },
   "resources": [
