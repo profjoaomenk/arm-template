@@ -69,8 +69,8 @@
       "apiVersion": "2021-02-01-preview",
       "name": "[format('{0}/{1}', variables('sqlserverName'), 'AllowAllWindowsAzureIps')]",
       "properties": {
-        "endIpAddress": "0.0.0.0",
-        "startIpAddress": "255.255.255.255"
+        "startIpAddress": "0.0.0.0",
+        "endIpAddress": "255.255.255.255"
       },
       "dependsOn": [
         "[resourceId('Microsoft.Sql/servers', variables('sqlserverName'))]"
