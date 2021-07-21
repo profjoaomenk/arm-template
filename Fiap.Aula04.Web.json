@@ -19,7 +19,7 @@
     },
     "sqlAdministratorLogin": {
       "type": "string",
-      "defaultValue": "admin"
+      "defaultValue": "admfiap"
     },
     "sqlAdministratorLoginPassword": {
       "type": "String",
